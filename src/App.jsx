@@ -3,6 +3,7 @@ import HomePage from "./assets/pages/HomePage";
 import AboutPage from "./assets/pages/AboutPage";
 import ProdutcsPage from "./assets/pages/ProdutcsPage";
 import DefaultLayout from "./assets/layouts/DefaultLayout";
+import InfoPage from "./assets/pages/InfoPage";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Route path="/" Component={HomePage} />
           <Route path="/about" Component={AboutPage} />
           <Route path="/products" Component={ProdutcsPage} />
+          <Route path="/info" Component={InfoPage} />
         </Route>
       </Routes>
     </BrowserRouter>

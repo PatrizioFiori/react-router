@@ -19,11 +19,17 @@ const arrayLinks = [
         link: "Products"
 
     },
+    {
+        id: 4,
+        path: "/info",
+        link: "info"
+
+    },
 ]
 
 const MainNav = () => {
     return (
-        <div>
+        <div className="NavBar">
             <ul>
                 {arrayLinks.map(item => {
                     return (

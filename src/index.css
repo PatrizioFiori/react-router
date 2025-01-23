@@ -2,9 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .active {
   color: blue;
   text-decoration: none;
+}
+
+.pagina {
+  text-align: center;
+  font-size: 80px;
+}
+
+.NavBar ul {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  list-style: none;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
 }
