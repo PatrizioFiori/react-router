@@ -15,14 +15,14 @@ const arrayLinks = [
     },
     {
         id: 3,
-        path: "/products",
-        link: "Products"
+        path: "/contatti",
+        link: "Contatti"
 
     },
     {
         id: 4,
-        path: "/info",
-        link: "info"
+        path: "/elenco-post",
+        link: "Posts"
 
     },
 ]
