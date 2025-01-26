@@ -25,6 +25,12 @@ const arrayLinks = [
         link: "Posts"
 
     },
+    {
+        id: 5,
+        path: "/nuovo-post",
+        link: "Crea post"
+
+    },
 ]
 
 const MainNav = () => {

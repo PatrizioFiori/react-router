@@ -1,8 +1,10 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom"
+import axios from "axios"
+import { useState } from "react"
 
 const PostCreatePage = () => {
     return (
-        <div>PostCreatePage</div>
+        <div>PostsCreatePage</div>
     )
 }
 
